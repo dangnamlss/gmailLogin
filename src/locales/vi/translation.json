@@ -1,0 +1,31 @@
+{
+  "content": {
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+    "signIn": "Đăng nhập",
+    "signInSub": "Tiếp tục tới Gmail",
+    "emailOrPhone": "Email hoặc số điện thoại",
+    "forgotEmail": "Bạn quên địa chỉ email?",
+    "notYourPC": "Đây không phải máy tính của bạn? Hãy sử dụng chế độ Khách để đăng nhập một cách riêng tư.",
+    "learnMore": "Tìm hiểu thêm",
+    "createAccount": "Tạo tài khoản",
+    "next": "Tiếp theo",
+    "help": "Trợ giúp",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "welcome": "Chào mừng",
+    "enterPass": "Nhập mật khẩu của bạn",
+    "showPass": "Hiện mật khẩu",
+    "forgotPass": "Bạn quên mật khẩu?",
+    "accRecover": "Khôi phục tài khoản",
+    "accRecoverSub": "Nhập mật khẩu gần nhất bạn nhớ là sử dụng với Tài khoản Google này",
+    "enterLastPass": "Nhập mật khẩu gần nhất",
+    "tryAnotherWay": "Thử cách khác",
+    "findEmail": "Tìm email của bạn",
+    "findEmailSub": "Nhập số điện thoại hoặc email khôi phục",
+    "createAccTitle": "Tạo Tài khoản Google",
+    "enterName": "Nhập tên của bạn",
+    "firstName": "Tên",
+    "surName": "Họ"
+  }
+}

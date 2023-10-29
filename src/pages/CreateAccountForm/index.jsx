@@ -2,8 +2,11 @@ import { useState } from "react";
 import { FormInput } from "../../components/FormInput";
 import "./styles.css";
 import { validateFirstName, validateLastName } from "../../utils/Validate";
+import { useTranslation } from "react-i18next";
 
 export const CreateAccountForm = () => {
+  const { t } = useTranslation();
+
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [firstNameError, setFirstNameError] = useState("");
@@ -18,19 +21,18 @@ export const CreateAccountForm = () => {
     if (validFirstName && validLastName) {
       setFirstNameError('')
       setLastNameError('')
-      console.log(firstName, lastName);
     }
   };
   return (
     <div className="create-account-form-container">
-      <h1 className="welcome-text">Create a Google Account</h1>
-      <div className="log-in-sub-title">Enter your name</div>
+      <h1 className="welcome-text">{t("content.createAccTitle")}</h1>
+      <div className="log-in-sub-title">{t("content.enterName")}</div>
 
       <form className="create-account-form" onSubmit={handleSubmit}>
         <div className="create-account-input-group">
           <FormInput
             type={"text"}
-            placeholder={"First name"}
+            placeholder={t("content.firstName")}
             value={firstName}
             handleChange={setFirstName}
             error={firstNameError}
@@ -38,7 +40,7 @@ export const CreateAccountForm = () => {
           />
           <FormInput
             type={"text"}
-            placeholder={"Surname"}
+            placeholder={t("content.surName")}
             value={lastName}
             handleChange={setLastName}
             error={lastNameError}
@@ -47,7 +49,7 @@ export const CreateAccountForm = () => {
         </div>
         <div className="forget-email-btn-group">
           <button type="submit" className="blue-btn">
-            <span>Next</span>
+            <span>{t("content.next")}</span>
           </button>
         </div>
       </form>

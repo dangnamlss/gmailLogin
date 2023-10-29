@@ -1,0 +1,31 @@
+{
+  "content": {
+    "english": "English",
+    "vietnamese": "Vietnamese",
+    "signIn": "Sign in",
+    "signInSub": "to continue to Gmail",
+    "emailOrPhone": "Email or phone number",
+    "forgotEmail": "Forgot email?",
+    "notYourPC": "Not your computer? Use Guest mode to sign in privately.",
+    "learnMore": "Learn more",
+    "createAccount": "Create Account",
+    "next": "Next",
+    "help": "Help",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "welcome": "Welcome",
+    "enterPass": "Enter your password",
+    "showPass": "Show password",
+    "forgotPass": "Forgot password",
+    "accRecover": "Account recovery",
+    "accRecoverSub": "Enter the last password you remember using with this Google Account",
+    "enterLastPass": "Enter last password",
+    "tryAnotherWay": "Try another way",
+    "findEmail": "Find your Email",
+    "findEmailSub": "Enter your phone number or recovery email",
+    "createAccTitle": "Create a Google Account",
+    "enterName": "Enter your name",
+    "firstName": "First name",
+    "surName": "Surname"
+  }
+}

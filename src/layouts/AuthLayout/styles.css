@@ -33,7 +33,7 @@
   flex-direction: row;
 }
 
-.footer-menu ul {
+.help-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -41,10 +41,11 @@
   align-items: center;
 }
 
-.footer-menu ul li {
+.help-list-item {
   list-style: none;
+  width: max-content;
 }
-.footer-menu ul li a {
+.help-list-item a {
   text-decoration: none;
   padding: 16px;
   color: #3c4043;
@@ -55,6 +56,7 @@
 }
 
 .language-selector {
+  margin-top: 5px;
   width: 188px;
   height: 48px;
   flex-shrink: 0;
@@ -104,10 +106,10 @@
     justify-content: center;
   }
 
-  .footer-menu ul {
+  .help-list {
     margin-left: -12px;
   }
-  .footer-menu ul li {
+  .help-list-item {
     height: 48px;
   }
 }

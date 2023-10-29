@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./styles.css";
+import { useTranslation } from "react-i18next";
 import { icons } from "../../themes";
+import "./styles.css";
 
 export const FormInput = ({
   placeholder,
@@ -10,6 +11,7 @@ export const FormInput = ({
   error,
   setError,
 }) => {
+  const { t } = useTranslation();
   const [isShowPass, setIsShowPass] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
 
@@ -62,7 +64,7 @@ export const FormInput = ({
             id="show-pass"
             onChange={(e) => handleCheckShowPass(e)}
           />
-          <label htmlFor="show-pass">Show password</label>
+          <label htmlFor="show-pass">{t("content.showPass")}</label>
         </div>
       )}
     </div>

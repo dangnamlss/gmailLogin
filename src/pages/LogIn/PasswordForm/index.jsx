@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { AccountList } from "../../../components/AccountList";
 import { FormInput } from "../../../components/FormInput";
 import { validatePassword } from "../../../utils/Validate";
 import { checkPassword } from "../../../data/MOCK_USER";
-import "./styles.css";
 import LoadingScreen from "../../../components/LoadingScreen";
+import "./styles.css";
 
 export const PasswordForm = () => {
+  const { t } = useTranslation();
+
   const username = localStorage.getItem("username");
   const navigate = useNavigate();
 
@@ -48,12 +51,12 @@ export const PasswordForm = () => {
   return (
     <div className="password-form-container">
       {loading && <LoadingScreen />}
-      <h1 className="welcome-text">Welcome</h1>
+      <h1 className="welcome-text">{t("content.welcome")}</h1>
       <AccountList userName={username} />
       <form className="password-form" onSubmit={handleSubmit}>
         <FormInput
           type={"password"}
-          placeholder={"Enter your password"}
+          placeholder={t("content.enterPass")}
           value={password}
           handleChange={setPassword}
           error={passwordError}
@@ -62,10 +65,10 @@ export const PasswordForm = () => {
 
         <div className="log-in-form-btn-group">
           <div className="invisible-btn" onClick={handleForgetPassword}>
-            <span className="blue-text">Forgot password</span>
+            <span className="blue-text">{t("content.forgotPass")}</span>
           </div>
           <button type="submit" className="blue-btn">
-            <span>Next</span>
+            <span>{t("content.next")}</span>
           </button>
         </div>
       </form>
