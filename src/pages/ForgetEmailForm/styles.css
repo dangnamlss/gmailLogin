@@ -1,0 +1,14 @@
+.forget-email-form-container {
+  width: 100%;
+}
+
+.forget-email-form {
+  margin-top: 36px;
+  padding: 0px 40px;
+}
+
+.forget-email-btn-group {
+  margin-top: 34px;
+  display: flex;
+  justify-content: flex-end;
+}

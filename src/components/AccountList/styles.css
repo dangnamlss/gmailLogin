@@ -1,0 +1,34 @@
+.account-list-container {
+  height: 32px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.acc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: row;
+  padding: 4px 7px 4px 5px;
+  box-sizing: inherit;
+  border-radius: 16px;
+  border: 1px solid #dadce0;
+}
+
+.acc-list img {
+  width: 20px;
+  height: 20px;
+}
+
+.acc-list label {
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  margin-bottom: 2px;
+}

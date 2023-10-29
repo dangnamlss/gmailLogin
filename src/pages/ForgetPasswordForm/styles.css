@@ -1,0 +1,22 @@
+.forget-password-form-container {
+  width: 100%;
+}
+
+.forget-password-sub-title {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+
+.forget-password-form {
+  margin-top: 36px;
+  padding: 0px 40px;
+}
+
+.forget-password-btn-group {
+  width: 100%;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

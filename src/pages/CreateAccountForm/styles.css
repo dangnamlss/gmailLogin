@@ -1,0 +1,14 @@
+.create-account-form-container {
+  width: 100%;
+}
+
+.create-account-form {
+  margin-top: 36px;
+  padding: 0px 40px;
+}
+
+.create-account-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
