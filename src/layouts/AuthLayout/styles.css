@@ -94,7 +94,7 @@
   }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 510px) {
   .footer-menu {
     position: fixed;
     bottom: 0;
